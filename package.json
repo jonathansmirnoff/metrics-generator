@@ -1,0 +1,29 @@
+{
+  "name": "metrics-generator",
+  "version": "1.0.0",
+  "description": "tool to allow to summarize explorer data",
+  "main": "processTxsWithAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathansmirnoff/metrics-generator.git"
+  },
+  "keywords": [
+    "RSK",
+    "Explorer",
+    "Blockchain"
+  ],
+  "author": "Jonathan Smirnoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathansmirnoff/metrics-generator/issues"
+  },
+  "homepage": "https://github.com/jonathansmirnoff/metrics-generator#readme",
+  "dependencies": {
+    "mongodb": "^3.6.1",
+    "bn.js": "^5.1.3",
+    "axios": "^0.20.0"
+  }
+}
